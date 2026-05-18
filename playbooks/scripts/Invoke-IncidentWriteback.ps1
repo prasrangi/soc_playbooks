@@ -14,9 +14,9 @@ param(
 
 #change following variables as per organization below are dummy values
 #============================================================================
-$tenantId = "d621fa9-84-4ddf-a17b-56b6e352b57d" 
-$clientId = "82f2a73-5f-4c0c-b584-3feb162dc75c"
-$clientSecret = "qgS8~kF16_QtvZI9nLqv~jFngLCebqIjZ~aQa"
+$tenantId = "d621fa9-84-4ddf-a17b-56b6e2b57d" 
+$clientId = "82f2a73-5f-4c0c-b584-3feb1dc75c"
+$clientSecret = "qgS8~kF16_QtvZI9nLqv~jFngebqIjZ~aQa"
 #============================================================================
 
 function Get-GraphToken {
