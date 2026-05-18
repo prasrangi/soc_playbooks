@@ -67,6 +67,12 @@ This playbook was designed with simple, practical security guardrails:
 
 These controls reflect common incident response playbook expectations such as prerequisites, workflow, checklist-driven execution, defined decision points, and documented reporting requirements.
 
+# Expected Outputs
+
+<img width="960" height="688" alt="image" src="https://github.com/user-attachments/assets/119b1d94-7c61-4d16-a70b-3dac97ab9de1" />
+
+<img width="1612" height="872" alt="image" src="https://github.com/user-attachments/assets/a25fc283-2383-46ee-b650-b9b03e303790" />
+
 
 ## Scope
 
