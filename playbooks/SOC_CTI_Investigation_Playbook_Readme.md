@@ -1,7 +1,6 @@
 # CTI Investigation Playbook
 
-A practical Cyber Threat Intelligence (CTI) playbook for **incident triage, IOC enrichment, tenant exposure validation, hunting leads, and IOC lifecycle decisions** using Microsoft Sentinel and Microsoft Defender XDR workflows. The playbook is designed to stay analyst-friendly, default to read-only investigation, and produce structured output that can feed SOC triage and detection engineering.[web:53][web:55]
-
+A practical Cyber Threat Intelligence (CTI) playbook for **incident triage, IOC enrichment, tenant exposure validation, hunting leads, and IOC lifecycle decisions** using Microsoft Sentinel and Microsoft Defender XDR workflows. The playbook is designed to stay analyst-friendly, default to read-only investigation, and produce structured output that can feed SOC triage and detection engineering.
 ## What it does
 
 - Accepts inputs such as incident ID, alert ID, IOC, actor, campaign, or CVE.
@@ -24,7 +23,7 @@ flowchart TD
     H --> I[CTI-ready output]
 ```
 
-GitHub supports Mermaid diagrams in Markdown, which makes this a simple way to visualize the playbook flow directly in the repository.[web:106][web:109]
+GitHub supports Mermaid diagrams in Markdown, which makes this a simple way to visualize the playbook flow directly in the repository.
 
 ## Repository structure
 
@@ -50,8 +49,7 @@ The playbook is intended to expand short prompts into a full investigation flow:
 - No automatic blocking or write-back unless explicitly approved.
 - Output optimized for SOC analysts and detection engineers.
 
-These principles align with common incident response playbook practices: clear initiating conditions, defined process steps, and human oversight for higher-risk actions.[web:53][web:55]
-
+These principles align with common incident response playbook practices: clear initiating conditions, defined process steps, and human oversight for higher-risk actions.
 
 ## Security considerations
 
@@ -67,15 +65,8 @@ This playbook was designed with simple, practical security guardrails:
 - **Auditability** — any approved write-back should be verified and treated as complete only after confirmation.
 - **Human-in-the-loop for risk decisions** — containment, blocking, and broader incident response actions remain analyst-controlled.
 
-These controls reflect common incident response playbook expectations such as prerequisites, workflow, checklist-driven execution, defined decision points, and documented reporting requirements.[web:61][web:53][web:57]
+These controls reflect common incident response playbook expectations such as prerequisites, workflow, checklist-driven execution, defined decision points, and documented reporting requirements.
 
-## Recommended companion files
-
-For a production-quality repository, add:
-
-- `SECURITY.md` — so security issues can be reported through a defined channel.[web:102][web:103][web:110]
-- `LICENSE` — to make reuse terms explicit.
-- Example prompts or sample outputs — to show expected investigation behavior.
 
 ## Scope
 
